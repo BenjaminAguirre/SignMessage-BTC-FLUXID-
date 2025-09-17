@@ -1,0 +1,23 @@
+{
+  "name": "my-auth-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@bitcoinerlab/secp256k1": "^1.2.0",
+    "axios": "^1.12.2",
+    "bitcoinjs-message": "^2.2.0",
+    "dotenv": "^17.2.2",
+    "ecpair": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.0"
+  }
+}
